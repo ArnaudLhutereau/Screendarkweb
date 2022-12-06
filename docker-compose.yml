@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  torcontainer:
+    build: ./torcontainer/
+    ports:
+      - "9050:9050"
+
+  appcontainer:
+    build: ./appcontainer/
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./appcontainer/files:/home/
