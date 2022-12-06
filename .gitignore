@@ -1,0 +1,3 @@
+*.log
+AppContainer/*.log
+TorContainer/*.log
