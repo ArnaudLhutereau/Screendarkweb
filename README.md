@@ -12,7 +12,7 @@ ScreenDarkweb is a tool which helps you to :
 
 ## Architecture
 
-[ image ]
+![Architecture of screendarkweb with 2 containers in a dedicated server](https://raw.githubusercontent.com/ArnaudLhutereau/Screendarkweb/main/architecture.png)
 
 ScreenDarkweb works in two app :
 - **App container** : a Flask app runs like a proxy to transform and analyze your requests to/from Tor network. It uses Selenium for scrapping action *(Firefox webdriver)*.
